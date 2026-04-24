@@ -1,40 +1,92 @@
-/* GENERAL */
-html {
-  scroll-behavior: smooth;
+html{
+scroll-behavior:smooth;
 }
 
-body {
-  margin: 0;
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  color: #111;
-  background: white;
+body{
+margin:0;
+font-family:Arial, sans-serif;
 }
 
-/* HERO */
-.hero {
-  height: 100vh;
-  background: linear-gradient(135deg, #0d1b2a, #1b263b, #415a77);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: white;
+/* INTRO PAGE */
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(135deg,#0d1b2a,#1b263b,#415a77);
+color:white;
 }
 
-.hero-content h1 {
-  font-size: 64px;
-  margin: 0;
-  font-weight: 700;
+.hero-content h1{
+font-size:64px;
+margin:0;
 }
 
-.hero-content p {
-  font-size: 24px;
-  margin: 15px 0 35px;
-  letter-spacing: 1px;
+.hero-content p{
+font-size:24px;
+margin:20px 0;
 }
 
-/* BUTTON */
-.btn {
+.btn{
+padding:14px 30px;
+border:2px solid white;
+color:white;
+text-decoration:none;
+border-radius:40px;
+}
+
+.btn:hover{
+background:white;
+color:#0d1b2a;
+}
+
+/* MAIN PAGE */
+header{
+position:sticky;
+top:0;
+background:white;
+padding:20px;
+border-bottom:1px solid #eee;
+text-align:center;
+}
+
+nav a{
+margin:0 15px;
+text-decoration:none;
+color:#111;
+}
+
+.section{
+max-width:1000px;
+margin:auto;
+padding:80px 20px;
+}
+
+.light{
+background:#f7f8fa;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 6px 14px rgba(0,0,0,0.08);
+}
+
+.btn-dark{
+padding:12px 24px;
+background:#111;
+color:white;
+text-decoration:none;
+border-radius:30px;
+}.btn {
   padding: 14px 28px;
   color: white;
   text-decoration: none;
