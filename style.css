@@ -1,23 +1,70 @@
+/* GENERAL */
 body {
-  font-family: Arial, sans-serif;
-  max-width: 900px;
-  margin: auto;
-  padding: 40px;
-  line-height: 1.6;
-  background: #ffffff;
-  color: #222;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  scroll-behavior: smooth;
+  color: #fff;
+  background: #0b0f1a;
 }
 
-h1, h2 {
-  color: #1a237e;
+/* NAVIGATION */
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: rgba(0,0,0,0.7);
+  padding: 15px;
+  z-index: 1000;
+}
+
+nav {
+  text-align: center;
 }
 
 nav a {
-  margin-right: 15px;
+  color: white;
+  margin: 0 15px;
   text-decoration: none;
-  color: #1a237e;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  color: #00d4ff;
+}
+
+/* HERO SECTION */
+.hero {
+  height: 100vh;
+  background: url('https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-text {
+  background: rgba(0,0,0,0.5);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+/* SECTIONS */
+section {
+  padding: 100px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  color: #00d4ff;
+  margin-bottom: 20px;
+}
+
+/* LINKS */
+a {
+  color: #00d4ff;
 }
