@@ -34,20 +34,6 @@ color:white;
 position:relative;
 }
 
-/* FLOATING STAR ANIMATION */
-body::before{
-content:"";
-position:absolute;
-top:0;
-left:0;
-width:200%;
-height:200%;
-background:url("https://www.transparenttextures.com/patterns/stardust.png");
-opacity:0.18;
-animation:moveStars 80s linear infinite;
-z-index:0;
-}
-
 @keyframes moveStars{
 0%{transform:translate(0,0);}
 100%{transform:translate(-400px,-200px);}
