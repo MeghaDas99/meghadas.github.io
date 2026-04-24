@@ -150,8 +150,8 @@ h2 {
   }
 }
 .about-image img {
-  width: 200px !important;
-  height: 200px !important;
+  width: 400px !important;
+  height: 400px !important;
   object-fit: cover !important;
   border-radius: 12px !important;
   display: block;
