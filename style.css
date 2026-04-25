@@ -156,10 +156,3 @@ h2 {
   border-radius: 12px !important;
   display: block;
 }
-
-#contact {
-  background: linear-gradient(rgba(0,0,0,0.05), rgba(0,0,0,0.05)),
-  url("eso2603a.jpg");
-  background-size: cover;
-  background-position: center;
-}
